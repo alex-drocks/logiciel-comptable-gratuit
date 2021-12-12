@@ -1,14 +1,27 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
+  "name": "logiciel-comptable-gratuit",
+  "version": "0.0.0",
+  "description": "",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "start": "parcel",
+    "build": "parcel build"
   },
+  "browserslist": "> 2%, last 1 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-drocks/logiciel-comptable-gratuit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-drocks/logiciel-comptable-gratuit/issues"
+  },
+  "homepage": "https://github.com/alex-drocks/logiciel-comptable-gratuit#readme",
   "devDependencies": {
-    "astro": "^0.21.12"
+    "autoprefixer": "^10.4.0",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1"
   }
 }
